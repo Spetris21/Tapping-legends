@@ -1,0 +1,18 @@
+{
+  "name": "tapping-legends",
+  "version": "2.0.0",
+  "description": "Tapping Legends - multiplayer tap simulator for lunch breaks",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/test-logic.js && node tests/test-layout.js && node tests/test-walk.js && node tests/test-server.js",
+    "sim": "node tests/sim.js",
+    "offline": "node tools/build-offline.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
